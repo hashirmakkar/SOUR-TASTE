@@ -113,6 +113,8 @@
     margin-top: 2rem;
   }
   
+  /* Responsive */
+
   
     nav ul.show {
       display: flex !important;
