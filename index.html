@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sour Taste</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1>Sour Taste</h1>
+      <nav>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="menu-toggle">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Sour Taste</h2>
+      <p>Deliciously sour, naturally fresh.</p>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://i.imgur.com/R7ZgX3o.jpg" alt="Lavashak">
+          <h3>Lavashak</h3>
+          <p>Traditional Persian sour fruit roll.</p>
+          <button onclick="buyNow('Lavashak')">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.imgur.com/fmWgkdt.jpg" alt="Armind">
+          <h3>Armind</h3>
+          <p>Sour and spicy dried plum treat.</p>
+          <button onclick="buyNow('Armind')">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: info@sourtaste.com | Phone: +123-456-7890</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sour Taste. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
