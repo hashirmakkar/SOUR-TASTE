@@ -113,19 +113,6 @@
     margin-top: 2rem;
   }
   
-  /* Responsive */
-  @media (max-width: 768px) {
-    nav ul {
-      display: none;
-      flex-direction: column;
-      background-color: #a83232;
-      position: absolute;
-      top: 70px;
-      right: 20px;
-      padding: 1rem;
-      border-radius: 5px;
-      z-index: 999;
-    }
   
     nav ul.show {
       display: flex !important;
